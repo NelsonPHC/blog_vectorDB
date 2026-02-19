@@ -1,0 +1,27 @@
+Collecting wikipedia
+  Downloading wikipedia-1.4.0.tar.gz (27 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: beautifulsoup4 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from wikipedia) (4.14.2)
+Requirement already satisfied: requests<3.0.0,>=2.0.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from wikipedia) (2.32.5)
+Requirement already satisfied: charset_normalizer<4,>=2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests<3.0.0,>=2.0.0->wikipedia) (2025.11.12)
+Requirement already satisfied: soupsieve>1.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from beautifulsoup4->wikipedia) (2.8)
+Requirement already satisfied: typing-extensions>=4.0.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from beautifulsoup4->wikipedia) (4.15.0)
+Building wheels for collected packages: wikipedia
+  Building wheel for wikipedia (pyproject.toml): started
+  Building wheel for wikipedia (pyproject.toml): finished with status 'done'
+  Created wheel for wikipedia: filename=wikipedia-1.4.0-py3-none-any.whl size=11757 sha256=ec0150e55f22b21873e079844a916b7f9aff3e44441f138125270ff658c9807b
+  Stored in directory: /Users/NelsonChen/Library/Caches/pip/wheels/63/47/7c/a9688349aa74d228ce0a9023229c6c0ac52ca2a40fe87679b8
+Successfully built wikipedia
+Installing collected packages: wikipedia
+Successfully installed wikipedia-1.4.0
+
+[notice] A new release of pip is available: 24.3.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
